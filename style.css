@@ -13,6 +13,10 @@
 
 #header-container {
   background-color: #fff8f3;
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: 3% center, bottom right;
+  background-size: 65px, 600px;
 }
 
 .text-primary {
@@ -58,9 +62,6 @@ nav ul li a {
 
 #banner-container {
   display: flex;
-  background-image: url(images/developer.png), url(images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
 }
 
 .banner-content {
@@ -84,6 +85,9 @@ nav ul li a {
   margin: 20px 0;
 }
 
-#banner-container img {
+.img-container {
   width: 400px;
+  background-image: url(images/hardy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
