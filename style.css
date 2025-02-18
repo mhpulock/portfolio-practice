@@ -26,7 +26,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 150px;
+  padding: 20px 170px;
 }
 
 nav h1 {
@@ -58,7 +58,32 @@ nav ul li a {
 
 #banner-container {
   display: flex;
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
+
 .banner-content {
+  margin: 100px 170px;
   width: 585px;
+}
+
+.banner-content h4 {
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.banner-content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.banner-content p {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+#banner-container img {
+  width: 400px;
 }
