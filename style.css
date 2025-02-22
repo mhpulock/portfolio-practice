@@ -91,3 +91,30 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#main-container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.aboutme-container {
+  background-color: #fff8f3;
+  margin: 100px auto;
+  padding: 100px;
+}
+.about-me {
+  background-color: white;
+  width: 727px;
+  margin: 0 auto;
+}
+
+.text-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutme-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
